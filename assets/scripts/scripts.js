@@ -17,17 +17,12 @@ document.querySelector('.search').addEventListener('submit', async (event) => {
     for (const x in json){
         valor = x
     }
-
     showInfo({
         cotaçao: json[valor]['bid']
     })
-});   
-    
+}); 
+
 function showInfo(json){
     showAlert('');
     document.querySelector('#title').innerHTML = `R$ ${json.cotaçao}`;
-}
-
-function showAlert(msg) {
-    document.querySelector('#alert').innerHTML = msg;
 }
