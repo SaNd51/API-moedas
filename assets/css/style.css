@@ -123,13 +123,4 @@ select option{
     color: aliceblue;
 }
 
-#mostra:target .show-action{
-    display: none;
-}
-
-.infos:target {
-    display:none;
-}
-
-
 
