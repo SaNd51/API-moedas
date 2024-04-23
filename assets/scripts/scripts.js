@@ -23,6 +23,5 @@ document.querySelector('.search').addEventListener('submit', async (event) => {
 }); 
 
 function showInfo(json){
-    showAlert('');
     document.querySelector('#title').innerHTML = `R$ ${json.cotaçao}`;
 }
