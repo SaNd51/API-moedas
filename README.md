@@ -3,6 +3,7 @@
 
 <div align="center"> 
 <p>usando AwesomeAPI: https://docs.awesomeapi.com.br/api-de-moedas </p>
+<p>view site: https://sand51.github.io/API-moedas/ </p>  
 </div>
 
 
