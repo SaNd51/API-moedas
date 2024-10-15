@@ -19,7 +19,6 @@
     <section class="container">
       <form class="search">
         <div class="colum">
-          <i class="fa-solid fa-dollar"></i>
           <h1 >escolha uma moeda</h1>
         </div>
         <div class="colum">
@@ -34,9 +33,10 @@
             <option value="BRL">REAL</option>
             <option value="EUR">EURO</option>
           </select>
-          <input class="form-control mb" type="number" name="number" id="valor">
+          <input class="form-control mb" pattern="^\d*(\.\d{0,2})?$" placeholder="0.00" id="valor">
           <button type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
+            CALCULAR
           </button>
         </div>
       </form>
